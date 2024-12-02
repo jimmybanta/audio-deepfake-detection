@@ -1,0 +1,19 @@
+# virtual environment
+venv/
+
+# temp files
+temp.py
+temp.ipynb
+
+# data files
+data/
+
+# environment file
+.env
+
+
+# caches
+__pycache__/
+
+# trash
+_trash/
