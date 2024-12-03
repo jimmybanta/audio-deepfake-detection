@@ -92,8 +92,8 @@ def load_dataset(meta_file,
 
     Returns
     -------
-    tuple of torch.tensor
-        A tuple of tensors - the positives and negatives
+    DataLoader
+        A DataLoader object containing the dataset
     '''
 
     positives = []
