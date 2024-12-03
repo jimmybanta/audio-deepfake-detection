@@ -1,5 +1,19 @@
 # Audio Deepfake Detection
 
+I trained a Convolutional Neural Net for the detection of audio deepfakes.
+
+### Repo Guide
+
+- assets/ - contains images to display in this Readme
+- cnn/ - contains the convolutional neural net architecture, built in PyTorch
+- data/ - contains meta data, as well as functions for importing and handling data
+- models/ - contains trained models
+- tests/ - contains unit tests
+- analyze.ipynb - contains the audio clip analyze tool (see below for more)
+- eval.py - contains functions related to model evaluation
+- hyperparameter_tuning.txt - contains the output from a hyperparameter tuning run
+- train.ipynb - contains the code for training my CNN's, as well as some evaluation of the final model I trained 
+
 
 ## Data Collection & Splitting
 
@@ -127,3 +141,4 @@ My final model, when evaluated on the holdout evaluation set:
 ## Analyze Tool
 
 In analyze.ipynb, you can choose any audio clip from the dataset, and it will get loaded in, analyzed by the model, and the estimated probability that it's a deepfake will be displayed, along with the sub-clips that most triggered the deepfake detector.
+
