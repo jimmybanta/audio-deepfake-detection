@@ -58,7 +58,7 @@ Inputs are of size [batch_size, 1, 128, 80]
 
 stride = 1, padding = 0, dilation = 1, kernel = (3 x 3)
 
-![](/assets/images/conv2d_output_shape?raw=True "Output Size (from PyTorch docs)")
+![](/assets/images/conv2d_output_shape.png?raw=True "Output Size (from PyTorch docs)")
 
 Hout = 128 - 2 - 1 + 1 == 126
 
@@ -72,7 +72,7 @@ Input: [batch_size, 16, 126, 78]
 
 stride=2, padding=0, dilation=1, kernel = (2 x 2)
 
-![](/assets/images/maxpool2d_output_shape?raw=True "Output Size (from PyTorch docs)")
+![](/assets/images/maxpool2d_output_shape.png?raw=True "Output Size (from PyTorch docs)")
 
 Hout = (126 - 1 - 1) / 2 + 1 = 63
 
