@@ -6,7 +6,7 @@ temp.py
 temp.ipynb
 
 # data files
-data/
+data_files/
 
 # environment file
 .env
