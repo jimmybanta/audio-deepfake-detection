@@ -1,0 +1,864 @@
+Num Channels: 1 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6705182413939091
+Epoch: 1 | Test Loss: 0.6893995303473026
+Epoch: 2 | Test Loss: 0.6970276828292462
+Epoch: 3 | Test Loss: 0.7097209595519004
+Epoch: 4 | Test Loss: 0.7186005407636115
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6855634202202447
+Epoch: 1 | Test Loss: 0.6882001311658955
+Epoch: 2 | Test Loss: 0.7052467107344017
+Epoch: 3 | Test Loss: 0.7134786464756341
+Epoch: 4 | Test Loss: 0.7412837317092813
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6865876385633894
+Epoch: 1 | Test Loss: 0.699504309420963
+Epoch: 2 | Test Loss: 0.6947615017993845
+Epoch: 3 | Test Loss: 0.7250620225350634
+Epoch: 4 | Test Loss: 0.7397331471065823
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6775214816842761
+Epoch: 1 | Test Loss: 0.705919680425099
+Epoch: 2 | Test Loss: 0.7034634164401463
+Epoch: 3 | Test Loss: 0.700294497183391
+Epoch: 4 | Test Loss: 0.7427530186516899
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.6697456206594194
+Epoch: 1 | Test Loss: 0.686381573336465
+Epoch: 2 | Test Loss: 0.6889930043901716
+Epoch: 3 | Test Loss: 0.6973884582519532
+Epoch: 4 | Test Loss: 0.6916272367749895
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6833754627288674
+Epoch: 1 | Test Loss: 0.6799382909918003
+Epoch: 2 | Test Loss: 0.6894661931039618
+Epoch: 3 | Test Loss: 0.7022885756312515
+Epoch: 4 | Test Loss: 0.7185242143895129
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6892660198022993
+Epoch: 1 | Test Loss: 0.6733536746004503
+Epoch: 2 | Test Loss: 0.6883376322204261
+Epoch: 3 | Test Loss: 0.6999817679254271
+Epoch: 4 | Test Loss: 0.7146864267561933
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6790067313386382
+Epoch: 1 | Test Loss: 0.7256453105871626
+Epoch: 2 | Test Loss: 0.6909395726464636
+Epoch: 3 | Test Loss: 0.7047028490107694
+Epoch: 4 | Test Loss: 0.721485739560436
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6698184055941445
+Epoch: 1 | Test Loss: 0.6936799143041883
+Epoch: 2 | Test Loss: 0.6889858058520726
+Epoch: 3 | Test Loss: 0.7021157205104828
+Epoch: 4 | Test Loss: 0.7341399533408028
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.6607658215931483
+Epoch: 1 | Test Loss: 0.6815284848213196
+Epoch: 2 | Test Loss: 0.6749920419284275
+Epoch: 3 | Test Loss: 0.6901399425097874
+Epoch: 4 | Test Loss: 0.6866564069475446
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6704497902299003
+Epoch: 1 | Test Loss: 0.6711302756619968
+Epoch: 2 | Test Loss: 0.6721541011612192
+Epoch: 3 | Test Loss: 0.6748246151230318
+Epoch: 4 | Test Loss: 0.6909315675068245
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6644313230360155
+Epoch: 1 | Test Loss: 0.6686459659672469
+Epoch: 2 | Test Loss: 0.6667514487350588
+Epoch: 3 | Test Loss: 0.6709002207080237
+Epoch: 4 | Test Loss: 0.6876725563042455
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6596144665059426
+Epoch: 1 | Test Loss: 0.682639910591592
+Epoch: 2 | Test Loss: 0.6740201793128638
+Epoch: 3 | Test Loss: 0.6741126012459076
+Epoch: 4 | Test Loss: 0.6748733816386985
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6567807734012604
+Epoch: 1 | Test Loss: 0.6622860644544873
+Epoch: 2 | Test Loss: 0.6651836676256997
+Epoch: 3 | Test Loss: 0.6742244618279594
+Epoch: 4 | Test Loss: 0.6814032205513545
+Stopping early...
+
+Num Channels: 1 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.6488223348345076
+Epoch: 1 | Test Loss: 0.6576711399214609
+Epoch: 2 | Test Loss: 0.6627508078302656
+Epoch: 3 | Test Loss: 0.6635113409587315
+Epoch: 4 | Test Loss: 0.6676456723894392
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6780412823176213
+Epoch: 1 | Test Loss: 0.6980489400222147
+Epoch: 2 | Test Loss: 0.6968526263459981
+Epoch: 3 | Test Loss: 0.7078516031983945
+Epoch: 4 | Test Loss: 0.7118406462476408
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6794971489220214
+Epoch: 1 | Test Loss: 0.7215695419757486
+Epoch: 2 | Test Loss: 0.7083714652618915
+Epoch: 3 | Test Loss: 0.7319476651630813
+Epoch: 4 | Test Loss: 0.7285545386856408
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6670029918066889
+Epoch: 1 | Test Loss: 0.7099299833928938
+Epoch: 2 | Test Loss: 0.7243380190657197
+Epoch: 3 | Test Loss: 0.7087435091999795
+Epoch: 4 | Test Loss: 0.7399402020646514
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6604071523462023
+Epoch: 1 | Test Loss: 0.714973543371473
+Epoch: 2 | Test Loss: 0.7863658734730312
+Epoch: 3 | Test Loss: 0.737239773784365
+Epoch: 4 | Test Loss: 0.7591841833932059
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7176472323281424
+Epoch: 1 | Test Loss: 0.7133726664951869
+Epoch: 2 | Test Loss: 0.7075591734477452
+Epoch: 3 | Test Loss: 0.7356639981269837
+Epoch: 4 | Test Loss: 0.7113195708819798
+Epoch: 5 | Test Loss: 0.7969374554497856
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6836500934345259
+Epoch: 1 | Test Loss: 0.7389770888810535
+Epoch: 2 | Test Loss: 0.7079373116223074
+Epoch: 3 | Test Loss: 0.7008454458747836
+Epoch: 4 | Test Loss: 0.7144984108724183
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6844471808817747
+Epoch: 1 | Test Loss: 0.7191682775243581
+Epoch: 2 | Test Loss: 0.7286723547702213
+Epoch: 3 | Test Loss: 0.7364391118502446
+Epoch: 4 | Test Loss: 0.7146533099438647
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6712613530296216
+Epoch: 1 | Test Loss: 0.7156416465052597
+Epoch: 2 | Test Loss: 0.720698429526185
+Epoch: 3 | Test Loss: 0.7199985033316578
+Epoch: 4 | Test Loss: 0.7114234579552849
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6858530044555664
+Epoch: 1 | Test Loss: 0.7282507623944964
+Epoch: 2 | Test Loss: 0.738490481887545
+Epoch: 3 | Test Loss: 0.7472623084272657
+Epoch: 4 | Test Loss: 0.7390195156846727
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7135412539754595
+Epoch: 1 | Test Loss: 0.6966718213898795
+Epoch: 2 | Test Loss: 0.7088583299091884
+Epoch: 3 | Test Loss: 0.7269075563975743
+Epoch: 4 | Test Loss: 0.7298906547682625
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6829871431850701
+Epoch: 1 | Test Loss: 0.7021250876484157
+Epoch: 2 | Test Loss: 0.7095788373685569
+Epoch: 3 | Test Loss: 0.6971007453130303
+Epoch: 4 | Test Loss: 0.7168018168253865
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6788440012245727
+Epoch: 1 | Test Loss: 0.7028659425622268
+Epoch: 2 | Test Loss: 0.7027865875539162
+Epoch: 3 | Test Loss: 0.6918333104188493
+Epoch: 4 | Test Loss: 0.6888004142603428
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6871742957787548
+Epoch: 1 | Test Loss: 0.6843466955980808
+Epoch: 2 | Test Loss: 0.6907897943215404
+Epoch: 3 | Test Loss: 0.7040685295201033
+Epoch: 4 | Test Loss: 0.7041035894867328
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6742698056357247
+Epoch: 1 | Test Loss: 0.674755380834852
+Epoch: 2 | Test Loss: 0.6902164127145495
+Epoch: 3 | Test Loss: 0.6859834713595254
+Epoch: 4 | Test Loss: 0.6827008741242545
+Stopping early...
+
+Num Channels: 2 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.6651897805077689
+Epoch: 1 | Test Loss: 0.6805057525634766
+Epoch: 2 | Test Loss: 0.685295125416347
+Epoch: 3 | Test Loss: 0.6824637498174395
+Epoch: 4 | Test Loss: 0.6967395748410906
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6718180152259284
+Epoch: 1 | Test Loss: 0.7123377194507516
+Epoch: 2 | Test Loss: 0.7120654332659228
+Epoch: 3 | Test Loss: 0.70960726776569
+Epoch: 4 | Test Loss: 0.7324940173638811
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6965850495177207
+Epoch: 1 | Test Loss: 0.6958799872466986
+Epoch: 2 | Test Loss: 0.7865917781274095
+Epoch: 3 | Test Loss: 0.8912580793710063
+Epoch: 4 | Test Loss: 0.7503473930221667
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7504052704186748
+Epoch: 1 | Test Loss: 0.7402981279565276
+Epoch: 2 | Test Loss: 0.7351411859766185
+Epoch: 3 | Test Loss: 0.8073024453876687
+Epoch: 4 | Test Loss: 0.8155480781905085
+Epoch: 5 | Test Loss: 0.85078144802464
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.7849937958376748
+Epoch: 1 | Test Loss: 0.7937654222760882
+Epoch: 2 | Test Loss: 0.783352164711271
+Epoch: 3 | Test Loss: 0.8639105762754168
+Epoch: 4 | Test Loss: 0.8178358767713819
+Epoch: 5 | Test Loss: 0.7819196045398712
+Epoch: 6 | Test Loss: 0.7590248022760664
+Epoch: 7 | Test Loss: 0.8829891128199441
+Epoch: 8 | Test Loss: 0.9813431118215833
+Epoch: 9 | Test Loss: 0.9949502212660654
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7216157725879124
+Epoch: 1 | Test Loss: 0.774002776827131
+Epoch: 2 | Test Loss: 0.7424314532961164
+Epoch: 3 | Test Loss: 0.8169126970427377
+Epoch: 4 | Test Loss: 0.7626467142786298
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.6746797951862966
+Epoch: 1 | Test Loss: 0.7193575254875979
+Epoch: 2 | Test Loss: 0.7421807841324121
+Epoch: 3 | Test Loss: 0.7237853485045673
+Epoch: 4 | Test Loss: 0.7301022358935514
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.7096395128064876
+Epoch: 1 | Test Loss: 0.691449130717799
+Epoch: 2 | Test Loss: 0.7817158795517983
+Epoch: 3 | Test Loss: 0.8062240342013269
+Epoch: 4 | Test Loss: 0.7351005521180819
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7501189888810083
+Epoch: 1 | Test Loss: 0.7209072567576127
+Epoch: 2 | Test Loss: 0.7311193780075732
+Epoch: 3 | Test Loss: 0.814619245289041
+Epoch: 4 | Test Loss: 0.8193887485017022
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.7332450764519828
+Epoch: 1 | Test Loss: 0.7442253257547106
+Epoch: 2 | Test Loss: 0.7441677417073931
+Epoch: 3 | Test Loss: 0.7536780527659825
+Epoch: 4 | Test Loss: 0.8753022219453539
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7343018123081753
+Epoch: 1 | Test Loss: 0.7138668554169791
+Epoch: 2 | Test Loss: 0.712007132598332
+Epoch: 3 | Test Loss: 0.7569520354270936
+Epoch: 4 | Test Loss: 0.7588020086288452
+Epoch: 5 | Test Loss: 0.7853817854608808
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.720552754541524
+Epoch: 1 | Test Loss: 0.7267833140363796
+Epoch: 2 | Test Loss: 0.7028537622565846
+Epoch: 3 | Test Loss: 0.6832435448928703
+Epoch: 4 | Test Loss: 0.7035312028668768
+Epoch: 5 | Test Loss: 0.7306892142343007
+Epoch: 6 | Test Loss: 0.7774740020148188
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.6985466992683548
+Epoch: 1 | Test Loss: 0.6965700996865472
+Epoch: 2 | Test Loss: 0.7052178352856807
+Epoch: 3 | Test Loss: 0.7084058821201324
+Epoch: 4 | Test Loss: 0.7045098787589039
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.6866004059640624
+Epoch: 1 | Test Loss: 0.6595640465509978
+Epoch: 2 | Test Loss: 0.6873326863316324
+Epoch: 3 | Test Loss: 0.7160355555925438
+Epoch: 4 | Test Loss: 0.7303022669373657
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6913446579660688
+Epoch: 1 | Test Loss: 0.69733424782753
+Epoch: 2 | Test Loss: 0.6943768603461129
+Epoch: 3 | Test Loss: 0.71645119871412
+Epoch: 4 | Test Loss: 0.7410108378955296
+Stopping early...
+
+Num Channels: 4 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.6865317549024309
+Epoch: 1 | Test Loss: 0.6910644360951015
+Epoch: 2 | Test Loss: 0.7062961612428937
+Epoch: 3 | Test Loss: 0.7019125052860805
+Epoch: 4 | Test Loss: 0.7047165206500462
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 11.8215091512572
+Epoch: 1 | Test Loss: 59.47290930302023
+Epoch: 2 | Test Loss: 32.37410366963997
+Epoch: 3 | Test Loss: 32.35257735526819
+Epoch: 4 | Test Loss: 32.352742939544235
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 17.076385182442426
+Epoch: 1 | Test Loss: 3.414595404974848
+Epoch: 2 | Test Loss: 26.79088727690333
+Epoch: 3 | Test Loss: 22.86594237869592
+Epoch: 4 | Test Loss: 30.48506161120298
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.829835893010064
+Epoch: 1 | Test Loss: 0.8187433601283342
+Epoch: 2 | Test Loss: 0.7483815619413802
+Epoch: 3 | Test Loss: 0.854013216581276
+Epoch: 4 | Test Loss: 0.9045638351989307
+Epoch: 5 | Test Loss: 1.001291197838543
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.9396140234810966
+Epoch: 1 | Test Loss: 0.9457505132470813
+Epoch: 2 | Test Loss: 0.9735796528203147
+Epoch: 3 | Test Loss: 0.8845219475882394
+Epoch: 4 | Test Loss: 0.8848113962582179
+Epoch: 5 | Test Loss: 0.941142702954156
+Epoch: 6 | Test Loss: 0.9660852577005113
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7966603023665292
+Epoch: 1 | Test Loss: 0.8204841017723083
+Epoch: 2 | Test Loss: 0.8203957898276193
+Epoch: 3 | Test Loss: 0.9221518908228193
+Epoch: 4 | Test Loss: 0.936065537588937
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.7056728098675501
+Epoch: 1 | Test Loss: 0.8238371681395195
+Epoch: 2 | Test Loss: 0.721045273081433
+Epoch: 3 | Test Loss: 0.7717627173276256
+Epoch: 4 | Test Loss: 0.8464490394476506
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.9103632123350239
+Epoch: 1 | Test Loss: 0.8351628222911478
+Epoch: 2 | Test Loss: 0.98428707628799
+Epoch: 3 | Test Loss: 0.8290573620110107
+Epoch: 4 | Test Loss: 0.7884802632837844
+Epoch: 5 | Test Loss: 1.1564109998641254
+Epoch: 6 | Test Loss: 0.9480089722134226
+Epoch: 7 | Test Loss: 1.008691226299718
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7740476375861134
+Epoch: 1 | Test Loss: 0.8084261537455827
+Epoch: 2 | Test Loss: 0.7525090485168018
+Epoch: 3 | Test Loss: 0.8318992158491835
+Epoch: 4 | Test Loss: 0.8575039535975285
+Epoch: 5 | Test Loss: 0.9051711259128379
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.7512678495475225
+Epoch: 1 | Test Loss: 0.8487056221280779
+Epoch: 2 | Test Loss: 0.8657789111137391
+Epoch: 3 | Test Loss: 0.7642823466232844
+Epoch: 4 | Test Loss: 0.8504982922758375
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7658975328717913
+Epoch: 1 | Test Loss: 0.7978740692138672
+Epoch: 2 | Test Loss: 0.7813220994813102
+Epoch: 3 | Test Loss: 0.7870764357703073
+Epoch: 4 | Test Loss: 0.8201314687728882
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.7067498534167413
+Epoch: 1 | Test Loss: 0.7739526174372906
+Epoch: 2 | Test Loss: 0.7246240975616647
+Epoch: 3 | Test Loss: 0.7401438849113828
+Epoch: 4 | Test Loss: 0.8073202998196478
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.7082630899741496
+Epoch: 1 | Test Loss: 0.7224853617681873
+Epoch: 2 | Test Loss: 0.7062382734507966
+Epoch: 3 | Test Loss: 0.7223996664765927
+Epoch: 4 | Test Loss: 0.7338466798658851
+Epoch: 5 | Test Loss: 0.8122098999057742
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7146621063458833
+Epoch: 1 | Test Loss: 0.7201481169933895
+Epoch: 2 | Test Loss: 0.7384470280983465
+Epoch: 3 | Test Loss: 0.7449931862542956
+Epoch: 4 | Test Loss: 0.7740161178780974
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.7135524732725961
+Epoch: 1 | Test Loss: 0.7025231174060277
+Epoch: 2 | Test Loss: 0.73684686762946
+Epoch: 3 | Test Loss: 0.7393585750034877
+Epoch: 4 | Test Loss: 0.7363401217120035
+Stopping early...
+
+Num Channels: 8 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7143649441855294
+Epoch: 1 | Test Loss: 0.7284568667411804
+Epoch: 2 | Test Loss: 0.7590157014983041
+Epoch: 3 | Test Loss: 0.7346833791051592
+Epoch: 4 | Test Loss: 0.7329719577516828
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 25.431833001349567
+Epoch: 1 | Test Loss: 32.39658273381295
+Epoch: 2 | Test Loss: 32.39181172761986
+Epoch: 3 | Test Loss: 32.388509517093354
+Epoch: 4 | Test Loss: 32.37411652366034
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 13.048070579552823
+Epoch: 1 | Test Loss: 32.14840670798322
+Epoch: 2 | Test Loss: 32.359112705258156
+Epoch: 3 | Test Loss: 32.366606719202274
+Epoch: 4 | Test Loss: 32.38159471964664
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 5.594410316549617
+Epoch: 1 | Test Loss: 9.140224750093418
+Epoch: 2 | Test Loss: 59.70805570204481
+Epoch: 3 | Test Loss: 32.36549413118431
+Epoch: 4 | Test Loss: 32.36519211144756
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 3.9198278733662195
+Epoch: 1 | Test Loss: 7.837693786621093
+Epoch: 2 | Test Loss: 7.036643409729004
+Epoch: 3 | Test Loss: 18.50717477798462
+Epoch: 4 | Test Loss: 6.72012699331556
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 2.140677431651524
+Epoch: 1 | Test Loss: 1.6309300831386022
+Epoch: 2 | Test Loss: 2.2309861132076807
+Epoch: 3 | Test Loss: 3.7456863914217267
+Epoch: 4 | Test Loss: 6.488561167035784
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 9.211688010539213
+Epoch: 1 | Test Loss: 2.124193856459138
+Epoch: 2 | Test Loss: 27.52065058920881
+Epoch: 3 | Test Loss: 27.293707053438364
+Epoch: 4 | Test Loss: 27.261459604870502
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 3.736744685353135
+Epoch: 1 | Test Loss: 4.213333520100271
+Epoch: 2 | Test Loss: 4.955762748184393
+Epoch: 3 | Test Loss: 11.74345915180316
+Epoch: 4 | Test Loss: 60.36160893062893
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 1.248839862055058
+Epoch: 1 | Test Loss: 2.324838948335579
+Epoch: 2 | Test Loss: 3.239990376740051
+Epoch: 3 | Test Loss: 5.242717090270502
+Epoch: 4 | Test Loss: 11.90980690674816
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.806896253994533
+Epoch: 1 | Test Loss: 0.9373350977897644
+Epoch: 2 | Test Loss: 0.938911167212895
+Epoch: 3 | Test Loss: 0.890638553244727
+Epoch: 4 | Test Loss: 0.9368354141712188
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7866207803998675
+Epoch: 1 | Test Loss: 0.7670054946626935
+Epoch: 2 | Test Loss: 0.8116000413894653
+Epoch: 3 | Test Loss: 0.8172738824571882
+Epoch: 4 | Test Loss: 0.8547277654920306
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.790433310293894
+Epoch: 1 | Test Loss: 0.8913336038160667
+Epoch: 2 | Test Loss: 0.9152812105503013
+Epoch: 3 | Test Loss: 0.8244990724668229
+Epoch: 4 | Test Loss: 0.8476452406683415
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.7378952423874423
+Epoch: 1 | Test Loss: 0.7830425442980348
+Epoch: 2 | Test Loss: 0.7653289655987308
+Epoch: 3 | Test Loss: 0.8342620445241173
+Epoch: 4 | Test Loss: 0.8667177513992186
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7639597834443017
+Epoch: 1 | Test Loss: 0.799464741627947
+Epoch: 2 | Test Loss: 0.8337707382311924
+Epoch: 3 | Test Loss: 0.7611872742501952
+Epoch: 4 | Test Loss: 0.8181649682333143
+Epoch: 5 | Test Loss: 0.83016165254785
+Epoch: 6 | Test Loss: 0.8578106070593964
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.6982097208499909
+Epoch: 1 | Test Loss: 0.7244820628847395
+Epoch: 2 | Test Loss: 0.7547978631087712
+Epoch: 3 | Test Loss: 0.7844621964863369
+Epoch: 4 | Test Loss: 0.82739446078028
+Stopping early...
+
+Num Channels: 16 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7082077741622925
+Epoch: 1 | Test Loss: 0.7166671974318368
+Epoch: 2 | Test Loss: 0.7261516911642892
+Epoch: 3 | Test Loss: 0.7345089248248509
+Epoch: 4 | Test Loss: 0.7562377282551357
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 32.422362216591985
+Epoch: 1 | Test Loss: 32.076917080338895
+Epoch: 2 | Test Loss: 67.63007264171573
+Epoch: 3 | Test Loss: 67.56690229786386
+Epoch: 4 | Test Loss: 67.59067516875781
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 32.39292706002434
+Epoch: 1 | Test Loss: 32.40436090153756
+Epoch: 2 | Test Loss: 32.39622173034888
+Epoch: 3 | Test Loss: 32.38846117472477
+Epoch: 4 | Test Loss: 32.40253191886188
+Epoch: 5 | Test Loss: 32.40407673403514
+Epoch: 6 | Test Loss: 32.39248259290517
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 14.52322697124893
+Epoch: 1 | Test Loss: 63.26201261890878
+Epoch: 2 | Test Loss: 67.46263649480807
+Epoch: 3 | Test Loss: 67.47357564692875
+Epoch: 4 | Test Loss: 67.45550463010939
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 14.767912142617362
+Epoch: 1 | Test Loss: 7.8048241376876835
+Epoch: 2 | Test Loss: 6.505305433273316
+Epoch: 3 | Test Loss: 66.38119839259556
+Epoch: 4 | Test Loss: 64.57306033543178
+Epoch: 5 | Test Loss: 63.84548666817801
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 2.893685051373073
+Epoch: 1 | Test Loss: 4.84216947555542
+Epoch: 2 | Test Loss: 10.920949527195521
+Epoch: 3 | Test Loss: 8.003964969090053
+Epoch: 4 | Test Loss: 9.53501603262765
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 57.033395918153175
+Epoch: 1 | Test Loss: 27.743234798472717
+Epoch: 2 | Test Loss: 57.073953776050814
+Epoch: 3 | Test Loss: 67.42591717946443
+Epoch: 4 | Test Loss: 64.59248095965214
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 7.027077303301517
+Epoch: 1 | Test Loss: 10.359846319869268
+Epoch: 2 | Test Loss: 67.36934007329049
+Epoch: 3 | Test Loss: 67.47540653695306
+Epoch: 4 | Test Loss: 67.3344188388303
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 2.5109176131889974
+Epoch: 1 | Test Loss: 17.99629719137288
+Epoch: 2 | Test Loss: 5.527674500890773
+Epoch: 3 | Test Loss: 7.712693610637308
+Epoch: 4 | Test Loss: 31.650711334008964
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 1.628595404114042
+Epoch: 1 | Test Loss: 2.340732608522688
+Epoch: 2 | Test Loss: 3.815245848042624
+Epoch: 3 | Test Loss: 6.983059297289167
+Epoch: 4 | Test Loss: 8.859157923289708
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 1.073115529332842
+Epoch: 1 | Test Loss: 1.7791804586138045
+Epoch: 2 | Test Loss: 3.3202047756740023
+Epoch: 3 | Test Loss: 2.76029896736145
+Epoch: 4 | Test Loss: 5.650724070412772
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 0.8738422520833907
+Epoch: 1 | Test Loss: 0.9682937743102046
+Epoch: 2 | Test Loss: 1.1017843589937086
+Epoch: 3 | Test Loss: 1.0782797793261438
+Epoch: 4 | Test Loss: 0.9118394447530774
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 0.8795390859139052
+Epoch: 1 | Test Loss: 0.8970811184790495
+Epoch: 2 | Test Loss: 0.8484760100464169
+Epoch: 3 | Test Loss: 0.8588338803044326
+Epoch: 4 | Test Loss: 0.901897753206946
+Epoch: 5 | Test Loss: 1.2028547463228376
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.7725685569022199
+Epoch: 1 | Test Loss: 0.8354978111150454
+Epoch: 2 | Test Loss: 0.8204050801640792
+Epoch: 3 | Test Loss: 0.8576201612143208
+Epoch: 4 | Test Loss: 0.9163994493244363
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.8044995469706399
+Epoch: 1 | Test Loss: 0.7667109319141933
+Epoch: 2 | Test Loss: 0.7903116830757686
+Epoch: 3 | Test Loss: 0.7879117105688368
+Epoch: 4 | Test Loss: 0.8643662478242602
+Stopping early...
+
+Num Channels: 32 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.7497465133666992
+Epoch: 1 | Test Loss: 0.7935994352613177
+Epoch: 2 | Test Loss: 0.8740929280008588
+Epoch: 3 | Test Loss: 0.7729400430406843
+Epoch: 4 | Test Loss: 0.8028993265969413
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.001 | Batch Size: 8
+Epoch: 0 | Test Loss: 32.09521757848829
+Epoch: 1 | Test Loss: 32.522411397892796
+Epoch: 2 | Test Loss: 32.4126856412819
+Epoch: 3 | Test Loss: 32.4385208294546
+Epoch: 4 | Test Loss: 32.400038568235985
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.001 | Batch Size: 16
+Epoch: 0 | Test Loss: 28.841608030332935
+Epoch: 1 | Test Loss: 28.31486032506545
+Epoch: 2 | Test Loss: 32.357385319771524
+Epoch: 3 | Test Loss: 32.37410071942446
+Epoch: 4 | Test Loss: 32.359112705258156
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.001 | Batch Size: 32
+Epoch: 0 | Test Loss: 26.506655494086175
+Epoch: 1 | Test Loss: 29.714705844577267
+Epoch: 2 | Test Loss: 32.58261987974318
+Epoch: 3 | Test Loss: 32.550332103701805
+Epoch: 4 | Test Loss: 32.521332679035
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.001 | Batch Size: 64
+Epoch: 0 | Test Loss: 8.158374844278608
+Epoch: 1 | Test Loss: 14.783731862476893
+Epoch: 2 | Test Loss: 40.078067316327775
+Epoch: 3 | Test Loss: 32.44657647269113
+Epoch: 4 | Test Loss: 32.429163687569755
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.001 | Batch Size: 128
+Epoch: 0 | Test Loss: 4.165738248825074
+Epoch: 1 | Test Loss: 8.240096923283168
+Epoch: 2 | Test Loss: 29.315229851858955
+Epoch: 3 | Test Loss: 32.37232856750488
+Epoch: 4 | Test Loss: 32.15411698477609
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0005 | Batch Size: 8
+Epoch: 0 | Test Loss: 32.355062899829676
+Epoch: 1 | Test Loss: 32.38804082569371
+Epoch: 2 | Test Loss: 32.509285546035215
+Epoch: 3 | Test Loss: 32.5166167732623
+Epoch: 4 | Test Loss: 32.45652032756119
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0005 | Batch Size: 16
+Epoch: 0 | Test Loss: 7.953563777448462
+Epoch: 1 | Test Loss: 30.803883134032326
+Epoch: 2 | Test Loss: 30.317732457634357
+Epoch: 3 | Test Loss: 30.099075298515157
+Epoch: 4 | Test Loss: 32.37923075312333
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0005 | Batch Size: 32
+Epoch: 0 | Test Loss: 15.691474791053388
+Epoch: 1 | Test Loss: 11.076702267145938
+Epoch: 2 | Test Loss: 32.0064392638721
+Epoch: 3 | Test Loss: 32.08907323604007
+Epoch: 4 | Test Loss: 32.221956884260656
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0005 | Batch Size: 64
+Epoch: 0 | Test Loss: 5.672869852610996
+Epoch: 1 | Test Loss: 7.3104818548475
+Epoch: 2 | Test Loss: 8.080449734415327
+Epoch: 3 | Test Loss: 8.023084802286965
+Epoch: 4 | Test Loss: 8.607698096547807
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0005 | Batch Size: 128
+Epoch: 0 | Test Loss: 2.6275530781064713
+Epoch: 1 | Test Loss: 4.461152914592198
+Epoch: 2 | Test Loss: 7.30042839050293
+Epoch: 3 | Test Loss: 6.6710996900285995
+Epoch: 4 | Test Loss: 8.671659455980574
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0001 | Batch Size: 8
+Epoch: 0 | Test Loss: 2.5409903288450386
+Epoch: 1 | Test Loss: 4.683517988618772
+Epoch: 2 | Test Loss: 9.696583533994586
+Epoch: 3 | Test Loss: 14.478426142374603
+Epoch: 4 | Test Loss: 7.885216215075992
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0001 | Batch Size: 16
+Epoch: 0 | Test Loss: 1.8593743409184242
+Epoch: 1 | Test Loss: 3.8144587076825203
+Epoch: 2 | Test Loss: 3.3241463057000002
+Epoch: 3 | Test Loss: 4.182274930339923
+Epoch: 4 | Test Loss: 5.817811352314709
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0001 | Batch Size: 32
+Epoch: 0 | Test Loss: 0.8230545936728553
+Epoch: 1 | Test Loss: 2.2042689696490334
+Epoch: 2 | Test Loss: 2.4550139998360505
+Epoch: 3 | Test Loss: 2.2615819228210037
+Epoch: 4 | Test Loss: 2.862934888695641
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0001 | Batch Size: 64
+Epoch: 0 | Test Loss: 0.8901377984455654
+Epoch: 1 | Test Loss: 0.8147446240697588
+Epoch: 2 | Test Loss: 0.8852537061486926
+Epoch: 3 | Test Loss: 0.9576314542974744
+Epoch: 4 | Test Loss: 0.9292802657399859
+Stopping early...
+
+Num Channels: 64 | Learning Rate: 0.0001 | Batch Size: 128
+Epoch: 0 | Test Loss: 0.9061890942709786
+Epoch: 1 | Test Loss: 0.8597345743860517
+Epoch: 2 | Test Loss: 0.7915710006441389
+Epoch: 3 | Test Loss: 0.8039166467530386
+Epoch: 4 | Test Loss: 0.8030909095491682
+Epoch: 5 | Test Loss: 0.8417036363056728
+Stopping early...

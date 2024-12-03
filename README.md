@@ -88,7 +88,42 @@ Their dimensions will be num_channels * 63 * 39
 
 Output will be of dimension 2
 
+## Training
 
+I ran a hyperparameter grid search, with early stopping enabled, to try to identify the right mix of hyperparameters.
 
-## Resources Used
+##### Hyperparameters
 
+- num channels - the number of convolutional channels to apply
+- learning rate - the learning rate for the optimizer
+- batch size - the size of batches the use during training
+- epochs - the number of epochs to train for
+
+See 'hyperparameter_tuning.txt' for the output from the grid search. 
+
+It seems to me like a smaller number of channels and a smaller learning rate seem to reliably produce better test loss.
+
+Batch size is more all over the place.
+
+In terms of epochs, the longer they train, the more they seem to overfit - see below:
+
+![](/assets/images/overfitting.png?raw=True "Overfitting")
+
+So, for my final model, I'll use 1 channel, a learning rate of .0001, a batch size of 32, trained for 10 epochs.
+
+## Model
+
+My final model, when evaluated on the holdout evaluation set:
+
+- ROC: 0.75
+- Accuracy: 72.5%
+- Sensitivity: 82.1%
+- Specificity: 56.8%
+- PPV: 75.7%
+- NPV: 66.0%
+
+![](/assets/images/model_1_cm.png?raw=True "Model 1 Confusion Matrix")
+
+## Analyze Tool
+
+In analyze.ipynb, you can choose any audio clip from the dataset, and it will get loaded in, analyzed by the model, and the estimated probability that it's a deepfake will be displayed, along with the sub-clips that most triggered the deepfake detector.
