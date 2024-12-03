@@ -10,6 +10,7 @@ import torchaudio
 
 load_dotenv()
 
+DATA_DIR = os.getenv('DATA_DIR')
 
 # setup the Mel Spectrogram transform
 transform = torchaudio.transforms.MelSpectrogram(16000)
@@ -32,7 +33,7 @@ def pad_tensor(tensor, target_length):
         The padded tensor
     '''
     
-    _, length = tensor.shape
+    _, _, length = tensor.shape
     if length % target_length != 0:
         # Calculate padding needed
         padding_needed = target_length - (length % target_length)
@@ -60,7 +61,6 @@ def load_file(file, target_length=80):
 
     # load wav file
     waveform, _ = torchaudio.load(file, normalize=True)
-    waveform = waveform.squeeze(0)
 
     # create mel spectrogram
     mel_specgram = transform(waveform)
@@ -69,7 +69,7 @@ def load_file(file, target_length=80):
     padded_tensor = pad_tensor(mel_specgram, target_length)
 
     # return the tensor, split into target_length chunks
-    return padded_tensor.split(target_length, dim=1)
+    return padded_tensor.split(target_length, dim=2)
 
 
 def load_dataset(meta_file, 
@@ -110,7 +110,7 @@ def load_dataset(meta_file,
             break
 
         # Load the file
-        file_tensors = load_file(os.path.join(data_dir, row.file), target_length=target_length)
+        file_tensors = load_file(os.path.join(DATA_DIR, row.file), target_length=target_length)
 
         # Add the tensors to the appropriate list
         for tensor in file_tensors:
@@ -120,8 +120,8 @@ def load_dataset(meta_file,
                 negatives.append(tensor)
 
     # Create labels
-    positive_labels = torch.ones(len(positives))
-    negative_labels = torch.zeros(len(negatives))
+    positive_labels = torch.tensor([[1.0, 0.0]] * len(positives))
+    negative_labels = torch.tensor([[0.0, 1.0]] * len(negatives))
 
     # Combine the inputs
     data = torch.cat((torch.stack(positives), torch.stack(negatives)), dim=0)

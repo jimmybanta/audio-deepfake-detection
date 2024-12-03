@@ -1,7 +1,7 @@
 # Audio Deepfake Detection
 
 
-## Data Collection
+## Data Collection & Splitting
 
 Using the 'In-the-Wild' dataset of audio deepfake data from kaggle -- [link](https://www.kaggle.com/datasets/abdallamohamed312/in-the-wild-dataset/data)
 
@@ -44,11 +44,56 @@ Train & Test:
 
 
 
+## Building the Convolutional Neural Net
+
+I need to calculate the dimensions of the CNN.
+
+The network will be composed of a 2D Convolution, a ReLU, then 2D Max Pooling 
+
+Then, I'll have a Linear layer after that
+
+Inputs are of size [batch_size, 1, 128, 80]
+
+##### 2D Convolution:
+
+stride = 1, padding = 0, dilation = 1, kernel = (3 x 3)
+
+![](/assets/images/conv2d_output_shape?raw=True "Output Size (from PyTorch docs)")
+
+Hout = 128 - 2 - 1 + 1 == 126
+
+Wout = 80 - 2 - 1 + 1 == 78
+
+Output: [batch_size, num_channels, 126, 78]
+
+##### Max Pooling
+
+Input: [batch_size, 16, 126, 78]
+
+stride=2, padding=0, dilation=1, kernel = (2 x 2)
+
+![](/assets/images/maxpool2d_output_shape?raw=True "Output Size (from PyTorch docs)")
+
+Hout = (126 - 1 - 1) / 2 + 1 = 63
+
+Wout = (78 - 1 - 1) / 2 + 1 = 39
+
+Output: [batch_size, num_channels, 63, 39]
+
+##### Linear Layer
+
+Now, we'll need to flatten the inputs for the linear layer.
+
+Their dimensions will be num_channels * 63 * 39
+
+Output will be of dimension 2
+
+
+
 
 ## To Do:
 
 - [x] Collect data
 - [x] split data
-- [ ] Data pre-processing
-- [ ] Build CNN
+- [x] Build CNN
 - [ ] CNN Training
