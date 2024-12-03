@@ -17,3 +17,6 @@ __pycache__/
 
 # trash
 _trash/
+
+# temp audio files
+temp_audio/
