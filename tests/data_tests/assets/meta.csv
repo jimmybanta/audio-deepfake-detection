@@ -1,0 +1,3 @@
+file,speaker,label,numeric_label,length (sec)
+2.wav,Barack Obama,spoof,1,8.0980625
+4.wav,Christopher Hitchens,bona-fide,0,0.991

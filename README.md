@@ -48,7 +48,7 @@ Train & Test:
 
 I need to calculate the dimensions of the CNN.
 
-The network will be composed of a 2D Convolution, a ReLU, then 2D Max Pooling 
+The network will be composed of a 2D Convolution, Batch Normalization, a ReLU, 2D Max Pooling, then a Dropout layer
 
 Then, I'll have a Linear layer after that
 
@@ -90,10 +90,5 @@ Output will be of dimension 2
 
 
 
+## Resources Used
 
-## To Do:
-
-- [x] Collect data
-- [x] split data
-- [x] Build CNN
-- [ ] CNN Training

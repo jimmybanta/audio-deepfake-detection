@@ -7,9 +7,7 @@ import torch.nn.functional as F
 
 class Model(nn.Module):
     '''
-    A CNN with 1 convolutional layer 
-    (composed of a 2D convolution, a ReLU, and a 2D Max Pooling),
-    and 1 linear layer.
+    A CNN with 1 convolutional layer and 1 linear layer.
     '''
     def __init__(self, num_channels):
         super().__init__()
@@ -19,8 +17,10 @@ class Model(nn.Module):
                       out_channels=num_channels, 
                       kernel_size=(3, 3),
                       stride=1,),
+            nn.BatchNorm2d(num_channels),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=(2, 2), stride=2, padding=0),
+            nn.Dropout(0.2)
         )
         self.layer2 = nn.Linear(num_channels * 63 * 39, 2)
 
