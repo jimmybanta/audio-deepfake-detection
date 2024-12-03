@@ -15,6 +15,9 @@ DATA_DIR = os.getenv('DATA_DIR')
 # setup the Mel Spectrogram transform
 transform = torchaudio.transforms.MelSpectrogram(16000)
 
+# setup the device
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 def pad_tensor(tensor, target_length):
     '''
     Given a tensor and a target length, pads the tensor so that its length a multiple of the target length -
@@ -63,7 +66,7 @@ def load_file(file, target_length=80):
     waveform, _ = torchaudio.load(file, normalize=True)
 
     # create mel spectrogram
-    mel_specgram = transform(waveform)
+    mel_specgram = transform(waveform).to(device)
 
     # pad tensor so it's cleanly divisible by target_length
     padded_tensor = pad_tensor(mel_specgram, target_length)
@@ -71,10 +74,8 @@ def load_file(file, target_length=80):
     # return the tensor, split into target_length chunks
     return padded_tensor.split(target_length, dim=2)
 
-
 def load_dataset(meta_file, 
                  target_length=80, 
-                 batch_size=32,
                  files_to_load='all'):
     '''
     Given a meta file, loads in the dataset.
@@ -85,8 +86,6 @@ def load_dataset(meta_file,
         The meta file to load
     target_length : int
         The target length to split the tensor into
-    batch_size : int
-        The batch size to use for the DataLoader
     files_to_load : int or 'all'
         The number of files to load. If 'all', all files are loaded.
 
@@ -128,11 +127,25 @@ def load_dataset(meta_file,
     # Combine the labels
     labels = torch.cat((positive_labels, negative_labels), dim=0)
 
-    # Create a dataset
-    dataset = TensorDataset(data, labels)
+    # Return the dataset
+    return TensorDataset(data, labels)
+
+def get_dataloader(dataset, batch_size=32):
+    '''
+    Given a dataset and a batch size, creates a DataLoader object.
+
+    Parameters
+    ----------
+    dataset : TensorDataset
+        The dataset to create a DataLoader for
+    batch_size : int
+        The batch size
+
+    Returns
+    -------
+    DataLoader
+        A DataLoader object containing the dataset
+    '''
 
     # Create a dataloader
-    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
-
-    # return the dataloader
-    return dataloader
+    return DataLoader(dataset, batch_size=batch_size, shuffle=True)
