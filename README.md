@@ -19,7 +19,7 @@ I trained a Convolutional Neural Net for the detection of audio deepfakes.
 
 Using the 'In-the-Wild' dataset of audio deepfake data from kaggle -- [link](https://www.kaggle.com/datasets/abdallamohamed312/in-the-wild-dataset/data)
 
-See 'data/data_meta.csv' for data on the samples and their labels.
+See 'data/meta/data_meta.csv' for data on the samples and their labels.
 
 Stats:
 - 31,779 total audio samples of varying lengths, with a sample rate of 16kHz
@@ -142,3 +142,12 @@ My final model, when evaluated on the holdout evaluation set:
 
 In analyze.ipynb, you can choose any audio clip from the dataset, and it will get loaded in, analyzed by the model, and the estimated probability that it's a deepfake will be displayed, along with the sub-clips that most triggered the deepfake detector.
 
+## Going Forward
+
+This model was trained on a subset of the data (1000, out of the 20000 clips) - because of time and computation limits.
+
+Training on the whole dataset would likely improve model performance.
+
+Additionally, I could try a more complex model - with an extra convolutional layer, or an extra linear layer.
+
+I could also try a more comprehensive hyperparameter search.
